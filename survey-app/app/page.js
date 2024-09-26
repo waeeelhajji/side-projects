@@ -1,10 +1,12 @@
+import Hero from "@/components/Hero";
 import Main from "@/components/Main";
 
-export default function HomePage() {
+export default function HomePage(props) {
+
   return (
-    <Main className="">
-      Main
-    </Main>
+    <Hero className="">
+
+    </Hero>
 
   );
 }
